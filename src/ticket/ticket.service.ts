@@ -338,6 +338,7 @@ export class TicketService {
         email: true,
         transactionTime: true,
         checkinDate: true,
+        isCheckin: true,
         tier: {
           select: {
             name: true,
